@@ -2,6 +2,7 @@
   height: 202px;
   width: 300px;
   background-color: red;
-  border: 1px;
+  border: 1px solid green;
   box-shadow: 1px 1px 5px green;
+  margin: 0 auto;
 }
