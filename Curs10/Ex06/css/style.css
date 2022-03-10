@@ -11,3 +11,32 @@ p:hover b {
   top: -2px;
   cursor: pointer;
 }
+
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p i {
+  position: relative;
+}
+
+p:hover i {
+  left: 2px;
+  top: -2px;
+}
+
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+p b {
+  position: relative;
+}

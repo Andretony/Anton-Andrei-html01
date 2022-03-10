@@ -24,3 +24,25 @@
   position: relative;
   margin-left: 8px;
 }
+
+.my-second-list a {
+  display: block;
+}
+
+.my-second-list a::before {
+  content: '';
+  display: inline-block;
+  background-color: pink;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.my-second-list a::after {
+  content: '';
+  display: inline-block;
+  transform: rotate(45deg);
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+}
