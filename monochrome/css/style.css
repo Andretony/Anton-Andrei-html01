@@ -269,7 +269,7 @@ a {
 .header .header-top {
   background: url('../images/banner/banner.png') center center / cover no-repeat;
   height: 500px;
-  padding: 30px 300px 0;
+  padding: 40px 392px 0;
   display: flex;
 }
 
@@ -327,14 +327,14 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 30px;
+  gap: 50px;
   white-space: nowrap;
 }
 
 .header-bottom .nav-main li {
   color: #e8e8e8;
   text-transform: uppercase;
-  padding: 10px 45px 10px 75px;
+  padding: 10px 59px 10px 42px;
   font-size: 19px;
 }
 
@@ -345,36 +345,32 @@ a {
   display: flex;
 }
 
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
 .footer-support {
+  padding: 40px 75px 50px 67px;
   display: inline-block;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  padding-left: 67px;
-  padding-right: 75px;
 }
 
 .footer-details {
   display: inline-block;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  padding-left: 67px;
-  padding-right: 75px;
+  padding: 40px 75px 50px 67px;
 }
 
 .footer-about-us {
   display: inline-block;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  padding-left: 67px;
-  padding-right: 75px;
+  padding: 40px 75px 50px 67px;
 }
 
 .footer-connect {
   display: inline-block;
-  padding-top: 40px;
-  padding-bottom: 50px;
-  padding-left: 67px;
-  padding-right: 75px;
+
+  padding: 66px 45px 50px 67px;
 }
 
 .footer .footer-connect button {
@@ -407,7 +403,7 @@ footer .social-media-icons ul {
 
 .home-catalog-preview h1 {
   text-align: center;
-  margin-top: 16px;
+  margin-top: 30px;
   font-weight: bold;
   font-size: 35px;
 }
@@ -422,10 +418,77 @@ footer .social-media-icons ul {
   width: 23.672566371;
 }
 
-.home-catalog-preview .product-tile-badge {
-  width: 100%;
+
+
+.product-tile-title a {
+  font-weight: bold;
+  padding-left: 74px;
+  font-size: 22px;
+
 }
 
-.home-catalog-preview .product-tiles-cta {
-  display: block;
+.product-tile-image-container {
+  position: relative;
+  padding-bottom: 21px;
 }
+
+.home-catalog-preview .product-tile-image-container .product-tile-badge {
+  position: absolute;
+  top: 21.59px;
+  right: 18.83px;
+  font-size: 22px;
+}
+
+.product-tile-pricing {
+  font-size: 22px;
+  padding-top: 10px;
+  padding-left: 138px;
+  padding-right: 139px;
+  padding-bottom: 46px;
+}
+
+.home-banner-main {
+display: flex;
+padding-top: 74px;
+padding-bottom: 140px;
+
+}
+
+.home-banner-text h1{
+  font-size: 44px;
+  font-weight: bold;
+  padding-left: 139px;
+  padding-bottom: 40px;
+}
+
+.home-banner-text  p{
+  float: flex;
+  color: #2B2B2B;
+  padding-left: 139px;
+  font-family: 'Roboto,Light';
+  font-size: 22px;
+  text-align: left;
+  line-height: 43px;
+}
+
+
+.home-catalog-preview .product-tile-cta {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  padding-top: 60px;
+  padding-bottom: 110px;
+}
+
+.home-catalog-preview .product-tile-cta button {
+  font-size: 22px;
+  background: none;
+  width: 112px;
+  height: 49px;
+  border: 1px solid black;
+
+}
+
+
+
+
