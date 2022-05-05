@@ -269,18 +269,20 @@ a {
 .header .header-top {
   background: url('../images/banner/banner.png') center center / cover no-repeat;
   height: 500px;
-  padding: 40px 392px 0;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
 
-.header-content {
-  display: center;
-  position: relative;
+.header-top .header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+
 }
 
-.header-connect {
-  float: left;
-}
 
 .header-connect li {
   display: inline-block;
@@ -289,8 +291,10 @@ a {
 }
 
 .header-controls {
-  float: right;
   display: flex;
+  align-items: flex-start;
+  gap: 22px;
+
 }
 
 .header-user-controls li {
@@ -301,12 +305,12 @@ a {
 .header-search-controls {
   display: flex;
   flex-direction: row-reverse;
-  border: 1px solid black;
+  border: 1px solid lightgray;
+  margin: -9px;
+  padding: 10px;
+  opacity: 1;
 }
 
-.header-search-controls i {
-  font-size: 12px;
-}
 
 .header-search-controls input {
   border: none;
@@ -338,10 +342,15 @@ a {
   font-size: 19px;
 }
 
+.header-nav-separator{
+  width: 100%;
+  border-top: 1px solid #CCCCCC;
+  margin-top: 20px;
+
+}
+
 .footer {
   background: #e8e8e8;
-  margin-top: 140px;
-  padding: 40px 0;
   display: flex;
 }
 
@@ -403,7 +412,7 @@ footer .social-media-icons ul {
 
 .home-catalog-preview h1 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: bold;
   font-size: 35px;
 }
@@ -415,10 +424,12 @@ footer .social-media-icons ul {
 }
 
 .home-catalog-preview .product-tile {
-  width: 23.672566371;
+  width: 23.672566371%;
 }
 
-
+.home-catalog-preview .product-tile img {
+  width: 100%;
+}
 
 .product-tile-title a {
   font-weight: bold;
@@ -480,11 +491,12 @@ padding-bottom: 140px;
   padding-bottom: 110px;
 }
 
-.home-catalog-preview .product-tile-cta button {
+.home-catalog-preview .product-tile-cta a {
   font-size: 22px;
+  text-transform: lowercase;
+  text-align: center;
   background: none;
-  width: 112px;
-  height: 49px;
+  padding: 10px;
   border: 1px solid black;
 
 }
